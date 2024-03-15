@@ -6,7 +6,7 @@
         <input 
         type="search" 
         placeholder="search for a movie..."
-        v-model="search_query"
+        v-model.lazy="search_query"
         required
         >
       </form>
